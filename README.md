@@ -14,5 +14,5 @@ conda install -c anaconda ipykernel
 4. Create a new Jupyter kernel based on this conda environment: `python -m ipykernel install --user --name=ml-reco-env`
 5. Clone this Github repository: `git clone git@github.com:klannon/ml_event_reco.git` (This assumes that you've [set up an SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) for your Github account and the computer where you're working.)
 6. Point your web browser at the ND [Jupyterhub instance](https://earth.crc.nd.edu:49000/).  You'll be prompted to log in with you ND NetID and usual password.
-7. Browse to the directory where you installed the `ml_event_reco` repository and open either of the notebooks
+7. Browse to the directory where you installed the `ml_event_reco` repository and open `gen_explorations.ipynb`.
 8. Make sure the kernel says `ml-reco-env` (upper right hand corner).  If not, choose `Change Kernel` from the `Kernel` menu and select that.
